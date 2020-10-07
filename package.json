@@ -4,12 +4,13 @@
     "url": "https://github.com/webdevstudios/stylelint-no-debug/issues"
   },
   "dependencies": {
-    "@webdevstudios/js-coding-standards": "~1.2.2",
     "stylelint": ">=3.0.2"
   },
   "deprecated": false,
   "description": "A custom stylelint rule to catch usage of @debug statements",
-  "devDependencies": {},
+  "devDependencies": {
+    "@webdevstudios/js-coding-standards": "~1.2.2"
+  },
   "homepage": "https://github.com/webdevstudios/stylelint-no-debug#readme",
   "keywords": [
     "stylelint",
