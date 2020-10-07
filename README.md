@@ -43,3 +43,9 @@ As follows:
   }
 };
 ```
+
+## Changelog
+
+## 1.0.1
+
+- Improvement to the lint itself, so that it works per-node.

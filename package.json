@@ -4,6 +4,7 @@
     "url": "https://github.com/webdevstudios/stylelint-no-debug/issues"
   },
   "dependencies": {
+    "@webdevstudios/js-coding-standards": "~1.2.2",
     "object-assign": "^4.0.1",
     "stylelint": ">=3.0.2",
     "stylelint-rule-tester": "^0.6.1"
@@ -33,5 +34,12 @@
   "version": "1.0.0",
   "directories": {
     "test": "test"
-  }
+  },
+  "eslintConfig": {
+    "extends": "@webdevstudios/js-coding-standards"
+  },
+  "stylelint": {
+    "extends": "@webdevstudios/css-coding-standards"
+  },
+  "prettier": "@webdevstudios/prettier-config-coding-standards"
 }
