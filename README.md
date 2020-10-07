@@ -46,4 +46,4 @@ As follows:
 
 ## Changelog
 
-- See [Releases](https://github.com/WebDevStudios/stylelint-no-debug/releases) &rarr;
+- See [Releases](https://github.com/WebDevStudios/stylelint-no-debug/releases)
