@@ -5,15 +5,11 @@
   },
   "dependencies": {
     "@webdevstudios/js-coding-standards": "~1.2.2",
-    "object-assign": "^4.0.1",
-    "stylelint": ">=3.0.2",
-    "stylelint-rule-tester": "^0.6.1"
+    "stylelint": ">=3.0.2"
   },
   "deprecated": false,
   "description": "A custom stylelint rule to catch usage of @debug statements",
-  "devDependencies": {
-    "tape": "^4.2.2"
-  },
+  "devDependencies": {},
   "homepage": "https://github.com/webdevstudios/stylelint-no-debug#readme",
   "keywords": [
     "stylelint",
@@ -29,7 +25,7 @@
     "url": "git+https://github.com/webdevstudios/stylelint-no-debug.git"
   },
   "scripts": {
-    "test": "tape test"
+    "test": "npm i && ./node_modules/.bin/stylelint examples/example.scss || true"
   },
   "version": "1.0.2",
   "directories": {
@@ -37,9 +33,6 @@
   },
   "eslintConfig": {
     "extends": "@webdevstudios/js-coding-standards"
-  },
-  "stylelint": {
-    "extends": "@webdevstudios/css-coding-standards"
   },
   "prettier": "@webdevstudios/prettier-config-coding-standards"
 }

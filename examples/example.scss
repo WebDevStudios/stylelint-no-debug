@@ -1,0 +1,18 @@
+/**
+ * Example
+ *
+ * In the below example, you should see an error where @debug was used in the
+ * block below.
+ *
+ * @since 1.0.3
+ * @author Aubrey Portwood <aubrey@webdevstudios.com>
+ */
+
+.thing {
+
+	@debug 'foo'; // Should error.
+}
+
+.thing {
+	display: none; // Should not error.
+}
