@@ -28,7 +28,7 @@
   "scripts": {
     "test": "npm i && ./node_modules/.bin/stylelint examples/example.scss || true"
   },
-  "version": "1.0.3",
+  "version": "1.0.4",
   "directories": {
     "test": "test"
   },
