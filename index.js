@@ -1,3 +1,13 @@
+/**
+ * Error on @debug.
+ *
+ * The purpose of the below is to throw an error when @debug
+ * is used in a block node.
+ *
+ * @since  1.0.0
+ * @author Aubrey Portwood <aubrey@webdevstudios.com>
+ */
+
 const stylelint = require( 'stylelint' );
 
 const ruleName = '@webdevstudios/stylelint-no-debug/no-debug';
