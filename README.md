@@ -1,3 +1,5 @@
+![WebDevStudios Branding](https://camo.githubusercontent.com/7d12ec7f6ef8149a0d837890409505a76a289b13/68747470733a2f2f77656264657673747564696f732e636f6d2f77702d636f6e74656e742f75706c6f6164732f323031382f30342f7764732d6769746875622d62616e6e65722e706e67)
+
 # `@webdevstudios/stylelint-no-debug`
 
 A [stylelint](https://github.com/stylelint/stylelint) custom rule to catch usage of `@debug` statements.
