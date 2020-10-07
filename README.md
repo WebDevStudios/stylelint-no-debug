@@ -46,6 +46,4 @@ As follows:
 
 ## Changelog
 
-## 1.0.1
-
-- Improvement to the lint itself, so that it works per-node.
+- See [Releases](https://github.com/WebDevStudios/stylelint-no-debug/releases) &rarr;
