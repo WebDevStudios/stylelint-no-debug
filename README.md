@@ -2,6 +2,12 @@
 
 # `@webdevstudios/stylelint-no-debug`
 
+------
+
+**This package is DEPRECATED and no longer in use at WebDevStudios and will no longer be maintained.**
+
+------
+
 A [stylelint](https://github.com/stylelint/stylelint) custom rule to catch usage of `@debug` statements.
 
 This rule will cause stylelint to warn you whenever `@debug` is used.
